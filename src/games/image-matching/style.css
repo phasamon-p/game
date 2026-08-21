@@ -1,0 +1,28 @@
+.matching-game__setup {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.matching-game__status {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.matching-game__grid {
+  display: grid;
+  gap: 0.6rem;
+  max-width: 560px;
+}
+
+.matching-game__win {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #e6f7ec;
+  border: 1px solid #3ba55d;
+  border-radius: 8px;
+}
